@@ -19,7 +19,7 @@ var connectionProperties = {
     user: "usr",
     password: "pwd"
 };
-var searchPath = 'path/destDir;
+var searchPath = 'path/destDir';
 
 var fileIsOlderThanSeconds = 120;
 
