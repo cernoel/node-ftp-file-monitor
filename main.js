@@ -157,7 +157,7 @@ c.on('ready', function () {
 
                         if( difference > fileIsOlderThanSeconds ) {
 						
-							if( difference < 3600 ) {
+							if( difference < 86400 ) {
 								// Only Files that are not older than one day.
 								// There is a bug sometimes, when a file get's touched by the os.. , the date changes to year 1970 something for a blink.. 
 								// we wanna prevent that.
